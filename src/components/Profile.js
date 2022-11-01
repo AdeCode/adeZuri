@@ -14,11 +14,11 @@ function Profile() {
         </div>
         <div className='flex-col box-border px-36'>
             <LinkCard title='Twitter Link' id='btn__zuri' link='https://training.zuri.team/'/>
-            <LinkCard title='Zuri Team'/>
-            <LinkCard title='Zuri Books'/>
-            <LinkCard title='Python Books'/>
+            <LinkCard title='Zuri Team' id='pitch' link='https://background.zuri.team/'/>
+            <LinkCard title='Zuri Books' id='books' link='http://books.zuri.team/'/>
+            <LinkCard title='Python Books' id='book__python' link='https://books.zuri.team/python-for-beginners?ref_id=adecode'/>
             <LinkCard title='Background Check for Coders'/>
-            <LinkCard title='Design Books'/>
+            <LinkCard title='Design Books' id='book__design' link='https://books.zuri.team/design-rules'/>
         </div>
     </div>
   )
